@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa; /* Set background color */
+    background-image: url('https://images.unsplash.com/photo-1631270315847-f418bde47ca6?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover; /* Cover the entire body */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff; /* Set container background color */
+    padding: 20px;
+}
+
+.login-form {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: calc(100% - 20px); /* Adjust width to account for padding */
+    padding: 8px;
+    border-radius: 5px; /* Add border radius */
+    border: 1px solid #ccc;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.btn-login {
+    background-color: #007bff; /* Set button background color */
+}
+
+.btn-signup {
+    background-color: #28a745; /* Set button background color */
+}
+
+.OR {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.header {
+    background-color: #f8d7da; /* Light reddish background */
+    color: #ffffff; /* White text */
+    padding: 10px 20px; /* Padding for the header */
+    text-align: center; /* Center the text */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow */
+}
